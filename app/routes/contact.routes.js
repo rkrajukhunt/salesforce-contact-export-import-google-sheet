@@ -1,5 +1,7 @@
 module.exports = function (app) {
-  var contact = require("../controllers/contact.controller.js");
+  const contact = require("../controllers/contact.controller.js");
 
   app.get("/contacts-export", contact.exportFile);
+
+  app.get("/", contact.hello);
 };

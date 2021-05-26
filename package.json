@@ -9,15 +9,16 @@
   "author": {
     "email": "rajukhunt15@gmail.com",
     "name": "Raju Khunt",
-    "url": "https://github.com/rkrajukhunt/salesforce-contact-export-import-google-sheet.git"
+    "url": "https://github.com/rkrajukhunt/salesforce-contact-export-import-google-sheet"
   },
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.21.1",
     "body-parser": "^1.18.2",
     "dotenv": "^10.0.0",
     "express": "^4.16.2",
-    "google-spreadsheet": "^3.1.15",
-    "jsforce": "^1.10.1",
-    "mongoose": "^4.13.6"
+    "googleapis": "^39.2.0",
+    "mongoose": "^4.13.6",
+    "node-salesforce": "^0.8.0"
   }
 }
